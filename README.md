@@ -1,6 +1,6 @@
-# Fluid Clone
+# Euri Ardila — Ingeniero Civil
 
-Clon de la web **Fluid Glass** (estilo editorial premium / diseño de lujo).
+Sitio web personal de Euri Ardila, Ingeniero Civil. Diseño estructural, gestión de obra e infraestructura.
 
 ## Tecnologías
 

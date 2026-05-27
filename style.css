@@ -530,9 +530,10 @@ ul {
   background: transparent;
   border: none;
   border-bottom: 1px solid rgba(17, 17, 17, 0.15);
-  padding-bottom: 0.6rem;
+  padding-bottom: 0.75rem;
+  padding-top: 0.25rem;
   font-family: var(--font-sans);
-  font-size: 0.875rem;
+  font-size: 1rem;
   color: var(--fg);
   outline: none;
   transition: border-color 0.3s ease;
@@ -541,7 +542,8 @@ ul {
 
 .form-field input::placeholder,
 .form-field textarea::placeholder {
-  color: rgba(17, 17, 17, 0.3);
+  color: rgba(17, 17, 17, 0.35);
+  font-size: 0.9375rem;
 }
 
 .form-field input:focus,
@@ -794,15 +796,21 @@ ul {
     gap: 4rem;
   }
 
-  .about-left,
-  .contact-left {
+  .about-left {
     grid-column: span 5;
   }
 
-  .about-right,
-  .contact-right {
+  .about-right {
     grid-column: span 6;
     grid-column-start: 7;
+  }
+
+  .contact-left {
+    grid-column: span 4;
+  }
+
+  .contact-right {
+    grid-column: span 8;
   }
 
   .about-text p {
