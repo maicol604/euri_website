@@ -794,6 +794,10 @@ ul {
     margin-top: -3rem;
   }
 
+  .project-center {
+    grid-column: 3 / span 8;
+  }
+
   .project-meta {
     flex-direction: row;
     justify-content: space-between;
@@ -830,11 +834,11 @@ ul {
   }
 
   .contact-left {
-    grid-column: span 3;
+    grid-column: span 6;
   }
 
   .contact-right {
-    grid-column: span 9;
+    grid-column: span 6;
   }
 
   .about-text p {
